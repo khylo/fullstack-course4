@@ -1,0 +1,29 @@
+body{
+	
+}
+p{
+}
+
+section{
+	float: right;
+	text-decoration: bold;
+}
+
+@media(max-width<768px){
+.box-sm{
+	width: 100%;	
+	background-color: red;
+}
+}
+
+@media(max-width>768px and max-width<991px){
+	.box-md{
+		width: 50%;
+	}
+}
+@media(max-width<992px){
+	.box-lg{
+		width: 33%;	
+		float: left;
+	}
+}
