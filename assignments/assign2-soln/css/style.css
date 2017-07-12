@@ -1,30 +1,61 @@
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 section{
-	width: 100%;
-	text-shadow: 2px;
-	background-color: grey;
-	clear: both;
+	float: right;	
+	background-color: lightgreen;
+	font-weight: bold;
+	text-align: right;
+	width: 100px;
+	height: 30px;
+	border: 1px solid;
+	padding: 5px;
 }
 
-@media (max-width: 767px) {
-.box-sm{
-	width: 100%;	
+section.pink{
+	background-color: pink;
+}
+
+section.red{
 	background-color: red;
 }
+section.yellow{
+	background-color: yellow;
 }
 
-@media (min-width:  768px) and (max-width:  991px){
+@media(max-width:768px){
+	.box-sm{
+		width: 100%;	
+		background-color: red;
+		padding: 10px;
+		/* 
+		margin: 10px;
+		border: 1px;*/
+	}
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
 	.box-md{
 		width: 50%;
 		float: left;
 		background-color: blue;
+		padding: 10px;
+		/* 
+		margin: 10px;
+		border: 1px;*/
 	}
 }
 @media(min-width: 992px){
 	.box-lg{
-		width: 33%;	
+		width: 31%;	
 		float: left;
-		background-color: green;
+		background-color: grey;
+		margin: 10px;
+		/* padding: 10px;
+		margin: 10px;
+		border: 1px;*/
 	}
 }
