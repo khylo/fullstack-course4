@@ -9,6 +9,14 @@ h1{
 	padding: 20px;
 }
 
+div{
+	float: left;
+	background-color: lightgray;
+	margin: 1%;
+	padding: 2em 1em 1em 1em;
+	border: 1px solid;
+}
+
 section{
 	position: relative;
 	float: right;
@@ -19,7 +27,7 @@ section{
 	text-align: right;
 	width: 100px;
 	height: 30px;
-	border: 1px solid;
+	border: 1px solid black;
 	padding: 5px;
 }
 
@@ -29,6 +37,8 @@ section.pink{
 
 section.red{
 	background-color: red;
+	color: whitesmoke;
+
 }
 section.yellow{
 	background-color: yellow;
@@ -36,44 +46,20 @@ section.yellow{
 
 @media(max-width:768px){
 	.box-sm{
-		width: 100%;	
-		background-color: red;
-		padding: 10px;
-		/* 
-		margin: 10px;
-		border: 1px;*/
+		width: 98%;
 	}
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
 	.box-md{
 		width: 48%;
-		float: left;
-		background-color: lightgray;
-		margin: 1%;
-		padding: 2em 1em 1em 1em;
-		border: 1px solid;
-		/*	padding-top: 1em;
-		margin: 10px;
-		border: 1px;*/
 	}
 	.box-md2{
-		width: 100%;
-		background-color: lightgray;
-		padding: 2em 1em 1em 1em;
-		border: 1px solid;
+		width: 98%;
 	}
 }
 @media(min-width: 992px){
 	.box-lg{
 		width: 31%;	
-		float: left;
-		background-color: grey;
-		margin: 1%;
-		padding: 2em 1em 1em 1em;
-		border: 1px solid;
-		/*	padding-top: 1em;
-		margin: 10px;
-		*/
 	}
 }
