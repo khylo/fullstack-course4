@@ -7,28 +7,30 @@
 h1{
 	text-align: center;
 	padding: 20px;
+	font-size: 1.75em;
 }
 
 div{
 	float: left;
 	background-color: lightgray;
 	margin: 1%;
-	padding: 2em 1em 1em 1em;
+	padding: 20px 10px 10px 10px;
 	border: 1px solid;
+	font-size: 1em;
 }
 
 section{
 	position: relative;
 	float: right;
-	top: -2em;
-	right: -1em;
-	background-color: lightgreen;
+	top: -20px;
+	right: -10px;
 	font-weight: bold;
 	text-align: right;
 	width: 100px;
 	height: 30px;
 	border: 1px solid black;
 	padding: 5px;
+	font-size: 1.25em
 }
 
 section.pink{
@@ -36,7 +38,7 @@ section.pink{
 }
 
 section.red{
-	background-color: red;
+	background-color: darkred;
 	color: whitesmoke;
 
 }
