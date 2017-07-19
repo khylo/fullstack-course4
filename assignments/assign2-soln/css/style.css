@@ -10,26 +10,24 @@ h1{
 	font-size: 1.75em;
 }
 
-div{
-	float: left;
+div.box-sm,	 div.box-sm2{
+	float: left;	
 	background-color: lightgray;
 	margin: 1%;
-	padding: 20px 10px 10px 10px;
+	padding: 30px 10px 10px 10px;
 	border: 1px solid;
 	font-size: 1em;
 }
 
 section{
-	position: relative;
+	margin: -30px -10px;
 	float: right;
-	top: -20px;
-	right: -10px;
 	font-weight: bold;
 	text-align: right;
 	width: 100px;
 	height: 30px;
 	border: 1px solid black;
-	padding: 5px;
+	padding: 5px 5px 0px 0px;
 	font-size: 1.25em
 }
 
@@ -53,15 +51,20 @@ section.yellow{
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
-	.box-md{
+	.box-sm{
 		width: 48%;
 	}
-	.box-md2{
+	.box-sm2{
 		width: 98%;
 	}
 }
 @media(min-width: 992px){
-	.box-lg{
-		width: 31%;	
+	.box-sm{
+		width: 30%;
+		background-color: grey;
+	}
+	.box-sm2{
+		width: 31%;
+		background-color: grey;
 	}
 }
